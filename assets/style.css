@@ -1,0 +1,88 @@
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 50%;
+}
+.nav-item{
+    margin: 0 4%;
+    float: right;
+}
+
+.nav{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: orange;
+}
+.nav-link:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+.intro {
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 5px solid red;
+    padding: 10px;
+    background-color: lightskyblue;
+}
+
+.section-title {
+    width: 50%;
+}
+
+.about-me-body {
+    margin-left: 2%;
+}
+
+.section-title {
+    width: 100%;
+    text-align: center;
+}
+.placeholder-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 33%;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+
+.project-left {
+    padding-right: 15%;
+}
+.project-right {
+    padding-left: 15%;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title {
+    padding-right: 2%;
+}
+
+@media (min-width: 1px) {
+    .placeholder-image {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 769px) {
+    .placeholder-image {
+        flex-direction: row;
+    }
+}
