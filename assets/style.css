@@ -1,3 +1,8 @@
+body{
+    background-color: #B9F3FC
+}
+
+
 .nav-list{
     display: flex;
     flex-direction: row;
@@ -14,14 +19,15 @@
     display:flex;
     flex-direction: row;
    justify-content: space-between;
+   
 }
 
 .nav-link{
     text-decoration: none;
-    color: orange;
+    color: #645CBB;
 }
 .nav-link:hover{
-    color:red;
+    color:#CF4DCE;
     text-decoration: underline;
 }
 
@@ -31,9 +37,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 5px solid red;
-    padding: 10px;
-    background-color: lightskyblue;
+    border: 20px solid #AEE2FF;
+    padding: 30px;
+    background-color: #B9F3FC;
 }
 
 .section-title {
@@ -56,7 +62,7 @@
     margin: 0 auto;
     padding: 2% 0;
 }
-
+/* Tried some sylting changes for left and right projecta */
 .project-left {
     padding-right: 15%;
 }
@@ -69,12 +75,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: 10px solid #AEE2FF;
+    padding: 20px;
 }
 
 .contact-title {
     padding-right: 2%;
 }
-
+/* Added media element to have responsive screen sizing */
 @media (min-width: 1px) {
     .placeholder-image {
         flex-direction: column;
@@ -86,3 +94,9 @@
         flex-direction: row;
     }
 }
+
+
+
+
+
+
