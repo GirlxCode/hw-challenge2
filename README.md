@@ -7,7 +7,6 @@ In this week's challenge, we were tasked with creating our own online portfolio 
 The portfolio site has a couple of clickable links to external sites. The site also has some buttons added in for fun. Titles were placed on each image that you can see when you hover over them. The nav and footer elements change color as you hover them. The first project has a larger image then the other two and can be clicked on.
 
 
+![](2023-02-05-22-04-36.png)
 
 
-
-![](2023-02-05-20-17-59.png)
